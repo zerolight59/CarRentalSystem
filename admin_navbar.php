@@ -71,14 +71,14 @@
                 </div>
             </div>
             <div class="c-placement">
-                <div class="nav-div-ele"><a href="#">carst</a></div>
-                <div class="nav-div-ele"><a href="#">users</a></div>
-                <div class="nav-div-ele"><a href="#">bookings</a></div>
+                <div class="nav-div-ele"><a href="admin_cars.php">cars</a></div>
+                <div class="nav-div-ele"><a href="admin_user_management.php">users</a></div>
+                <div class="nav-div-ele"><a href="admin_dash.php">bookings</a></div>
             </div>
             <div class="r-placement">
 
                 <div calss="admin-nav-logout">
-                    <a href="#" class="logout-btn">Logout</a>
+                    <a href="adminlogin.php" class="logout-btn">Logout</a>
                 </div>
             </div>
         </nav>

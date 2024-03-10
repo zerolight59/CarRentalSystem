@@ -31,12 +31,13 @@
             ?>
                 <tr class="active-row">
                     <td><?php echo $row['BOOK_ID']; ?></td>
+                    <?php $id= $row['BOOK_ID'];?>
                     <td><img src="images/<?php echo $row['CAR_IMG']; ?>" alt="car image"></td>
                     <td><?php echo $row['BOOK_PLACE']; ?></td>
                     <td><?php echo $row['BOOK_DATE']; ?></td>
                     <td><?php echo $row['DESTINATION']; ?></td>
                     <td><?php echo $row['BOOK_STATUS']; ?></td>
-                    <td><a href="admin_booking_detail.php">view</a></td>
+                    <td><a href="admin_booking_detile.php?id=<?php echo $id; ?>">view</a></td>
                 </tr>
             <?php
             }
