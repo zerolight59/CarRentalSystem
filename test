@@ -1,0 +1,16 @@
+Car Management:
+Add new car entries to the system.
+Edit existing car information (details, images, availability, price).
+Delete car entries from the system (when no longer available).
+
+User Management:
+View a list of registered users.
+Option to edit or delete user accounts (for exceptional cases).
+
+Booking Management:
+View a comprehensive list of all booking requests.
+Manage booking statuses (e.g., confirmed, pending, canceled).
+
+Reports & Analytics (Optional):
+Generate reports on bookings, revenue, and user activity.
+View insights into user preferences and rental trends.
